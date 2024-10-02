@@ -11,20 +11,20 @@
 
 <h3>pasos para hacer correr proyecto</h3>
 <ol>
-    <li>    ejecutar powershell ISE como administrador</li>
-    <li>    ejecutar: set-executionpolicy remotesigned</li>
-    <li>    aceptar todo y cerrar powershell ISE</li>
+    <li>_    ejecutar powershell ISE como administrador</li>
+    <li>_    ejecutar: set-executionpolicy remotesigned</li>
+    <li>_    aceptar todo y cerrar powershell ISE</li>
     <br>
-    <li>    navegar hasta dentro de la carpeta raiz del proyecto</li>
-    <li>    en la url digitar cmd</li>
-    <li>    en cmd digitar una linea a la vez lo siguiente:</li>
-    <li>    python -m venv myvenv</li>
-    <li>    \myvenv\Scripts\activate.bat</li>
-    <li>    python -m pip install --upgrade pip</li>
-    <li>    pip install -r requirements.txt</li>
-    <li>    por ultimo: python manage.py runserver</li>
-    <li>    abrir en un navegador la ruta: http://127.0.0.1:8000/</li>
-    <li>    para aprir el crud a la ruta agrege la palabra admin: http://127.0.0.1:8000/admin</li>
+    <li>_    navegar hasta dentro de la carpeta raiz del proyecto</li>
+    <li>_    en la url digitar cmd</li>
+    <li>_    en cmd digitar una linea a la vez lo siguiente:</li>
+    <li>_    python -m venv myvenv</li>
+    <li>_    \myvenv\Scripts\activate.bat</li>
+    <li>_    python -m pip install --upgrade pip</li>
+    <li>_    pip install -r requirements.txt</li>
+    <li>_    por ultimo: python manage.py runserver</li>
+    <li>_    abrir en un navegador la ruta: http://127.0.0.1:8000/</li>
+    <li>_    para aprir el crud a la ruta agrege la palabra admin: http://127.0.0.1:8000/admin</li>
 
 </ol>
 
