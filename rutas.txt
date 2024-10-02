@@ -1,0 +1,58 @@
+RAYOMAKWEEN/
+├── mecanicos/
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── estilos.css
+│   │   ├── img/
+│   │   │   └── ...
+│   │   └── js/
+│   │       └── ...
+│   ├── templates/
+│   │   ├── contacto.html
+│   │   ├── galeria.html
+│   │   ├── image_confirm_delete.html
+│   │   ├── image_form.html
+│   │   ├── image_list.html
+│   │   ├── index.html
+│   │   ├── ingreso.html
+│   │   ├── qSomos.html
+│   │   ├── Registro.html
+│   │   ├── ultimoT1.html
+│   │   ├── ultimoT2.html
+│   │   └── ultimoT3.html
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   ├── views.py
+├── media
+│   ├── imágenes
+│   │   ├── ...
+├── taller/
+│   ├── __pycache__
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+├── .gitignore
+├── db.sqlite3
+├── manage.py
+├── README.md
+├── requirements.txt
+├── rutas.txt
+
+
+Superuser:
+1
+-Usuario: esteban
+-Contraseña: Esteban
+2
+-Usuario: nicolas
+-Contraseña: Bustamante
+3
+-Usuario: oscar
+-Contraseña: Profesor

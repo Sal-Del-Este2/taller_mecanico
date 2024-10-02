@@ -1,0 +1,7 @@
+[
+    { "nombre": "inicio", "url": "index.html" },
+    { "nombre": "sobre nosotros", "url": "quienes-somos.html" },
+    { "nombre": "contacto", "url": "contacto.html" },
+    { "nombre": "registro", "url": "registro.html" },
+    { "nombre": "ingreso", "url": "login.html" }
+]

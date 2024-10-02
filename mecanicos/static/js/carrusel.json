@@ -1,0 +1,5 @@
+[
+    { "url": "ultimoT1.html", "imagen": "img/02-Electrico.jpg", "titulo": "Error eléctrico", "descripcion": "Debido a una mala instalación de un accesorio nuestro cliente acude a nosotros, teniendo que eliminar el trayecto afectado en conjunto con su Relay y fusible." },
+    { "url": "ultimoT2.html", "imagen": "img/01-caja.jpg", "titulo": "Cambio Caja de Cambio", "descripcion": "En este caso el cambio se debió por tener ruido debido al desgaste del material, el que impedía un buen contacto." },
+    { "url": "ultimoT3.html", "imagen": "img/02-suspension.jpg", "titulo": "Mantenimiento en sistema de escape", "descripcion": "Se cambió para cumplir con las regulaciones ambientales y mejorar el rendimiento del vehículo al reducir emisiones y mantener la eficiencia del motor." }
+]

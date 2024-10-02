@@ -1,0 +1,47 @@
+[
+    { "nombre": "sobre nosotros", "url": "quienes-somos.html"},
+    { "nombre": "nosotros", "href": "{% url 'galeria' %}"},
+    { "nombre": "contacto", "url": "contacto.html" },
+    { "nombre": "registro", "url": "registro.html" },
+    { "nombre": "registrarse", "url": "registro.html" },
+    { "nombre": "ingreso", "url": "login.html" },
+    { "nombre": "ingresar", "url": "login.html" },
+    { "nombre": "entrar", "url": "login.html" },
+
+    { "nombre": "servicios", "url": "servicios.html" },
+    { "nombre": "trabajos", "url": "servicios.html" },
+    { "nombre": "que se hace", "url": "servicios.html" },
+    { "nombre": "carroseria", "url": "carroseria.html" },
+    { "nombre": "rueda", "url": "carroseria.html" },
+    { "nombre": "pintura", "url": "carroseria.html" },
+    { "nombre": "choque", "url": "carroseria.html" },
+    { "nombre": "molde", "url": "carroseria.html" },
+    { "nombre": "topon", "url": "carroseria.html" },
+    { "nombre": "enderesar", "url": "carroseria.html" },
+    { "nombre": "electricidad", "url": "electricidad.html" },
+    { "nombre": "electrico", "url": "electricidad.html" },
+    { "nombre": "foco", "url": "electricidad.html" },
+    { "nombre": "luces", "url": "electricidad.html" },
+    { "nombre": "led", "url": "electricidad.html" },
+    { "nombre": "PCU", "url": "electricidad.html" },
+    { "nombre": "cremallera", "url": "electricidad.html" },
+    { "nombre": "gases", "url": "gases.html" },
+    { "nombre": "catalitico", "url": "gases.html" },
+    { "nombre": "escape", "url": "gases.html" },
+    { "nombre": "tubo escape", "url": "gases.html" },
+    { "nombre": "caja", "url": "cajaCambio.html" },
+    { "nombre": "cambio", "url": "cajaCambio.html" },
+    { "nombre": "caja de cambio", "url": "cajaCambio.html" },
+    { "nombre": "ultimo", "url": "ultimoT1.html" },
+    { "nombre": "esteban", "url": "ultimoT1.html" },
+    { "nombre": "peultimo", "url": "ultimoT2.html" },
+    { "nombre": "nicolas", "url": "ultimoT2.html" },
+    { "nombre": "antepeultimo", "url": "ultimoT3.html" },
+    { "nombre": "juan", "url": "ultimoT3.html" },
+    { "nombre": "galeria", "url": "{% url 'galeria' %}" }
+
+]
+
+
+
+

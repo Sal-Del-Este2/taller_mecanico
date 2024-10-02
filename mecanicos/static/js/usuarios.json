@@ -1,0 +1,17 @@
+[
+    {
+      "nombre":"esteban",
+      "correo":"esteban@taller.com",
+      "password":"1234"
+    },
+    {
+      "nombre":"nicolas",
+      "correo":"nicolas@taller.com",
+      "password":"1234"
+    },
+    {
+      "nombre":"juan",
+      "correo":"juan@taller.com",
+      "password":"1234"
+    }
+  ]

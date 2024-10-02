@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% if form.instance.pk %}Edit{% else %}Create{% endif %} Image Entry</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#add-material').click(function() {
+                var newMaterial = $('#new-material').val();
+                if (newMaterial) {
+                    var materialList = $('#material-list');
+                    var listItem = '<li>' + newMaterial + '<input type="hidden" name="materials" value="' + newMaterial + '"></li>';
+                    materialList.append(listItem);
+                    $('#new-material').val('');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>{% if form.instance.pk %}Edit{% else %}Create{% endif %} Image Entry</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <h2>Materials</h2>
+        <ul id="material-list">
+            {% for material in form.instance.materials.split(',') %}
+                <li>{{ material }}<input type="hidden" name="materials" value="{{ material }}"></li>
+            {% endfor %}
+        </ul>
+        <input type="text" id="new-material" placeholder="Add new material">
+        <button type="button" id="add-material">Add Material</button>
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>
