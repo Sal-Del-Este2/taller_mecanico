@@ -1,9 +1,13 @@
-<h1>PGY3121-007V</h1>
-<h3>evaluacion ET</h3>
+<h1>Taller mecanico incompleto</h1>
+<h3>seguir elaborando</h3>
 
 <h4>Grupo</h4>
-
-<p>Esteban Salas</p>
+<ul>
+    <li>Esteban Salas</li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
 
 <h4>ingreso a Crud</h4>
 <p>usario: admin</p>
