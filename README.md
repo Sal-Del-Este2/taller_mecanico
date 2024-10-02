@@ -24,7 +24,7 @@
     <li>_    en cmd digitar una linea a la vez lo siguiente:</li>
     <li>_    python -m venv myvenv</li>
     <li>_    .\myvenv\Scripts\activate.bat</li>
-    <p>_ cuidado lleva "punto" la ruta</p>
+    <p> cuidado lleva "punto" la ruta</p>
     <br>
     <li>_    python -m pip install --upgrade pip</li>
     <li>_    pip install -r requirements.txt</li>
